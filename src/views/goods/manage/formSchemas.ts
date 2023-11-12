@@ -30,6 +30,7 @@ export const goodsSchemas: FormSchema<API.CreateGoodsParams>[] = [
     field: 'wash',
     component: 'Input',
     label: '洗涤建议',
+    defaultValue: '中性洗涤剂，常温手洗/干洗',
   },
   {
     field: 'price',

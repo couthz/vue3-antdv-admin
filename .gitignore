@@ -10,6 +10,7 @@ tests/server/static/upload
 .local
 # local env files
 .env.local
+.env.development
 .env.*.local
 .eslintcache
 
