@@ -9,12 +9,12 @@ export const goodsSchemas: FormSchema<API.CreateGoodsParams>[] = [
   {
     field: 'color',
     component: 'Input',
-    label: '颜色',
+    label: '颜色(空格分割)',
   },
   {
     field: 'size',
     component: 'InputTextArea',
-    label: '尺码',
+    label: '尺码(按空行分割,如:\nXL 胸围:xx 腰围:xx\nL 胸围:xx 腰围:xx,)',
   },
   {
     field: 'fabric',

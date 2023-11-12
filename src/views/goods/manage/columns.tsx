@@ -14,7 +14,7 @@ export const columns: TableColumn[] = [
     },
   },
   {
-    title: '颜色(空格分割)',
+    title: '颜色',
     align: 'center',
     dataIndex: 'color',
     editFormItemProps: {
@@ -22,7 +22,7 @@ export const columns: TableColumn[] = [
     },
   },
   {
-    title: '尺码(不同尺码空格分割)',
+    title: '尺码',
     align: 'center',
     dataIndex: 'size',
     editFormItemProps: {
