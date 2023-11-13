@@ -129,10 +129,6 @@
             },
           },
           {
-            label: '淘宝上架',
-            onClick: () => {},
-          },
-          {
             label: '下载库存',
             onClick: async () => {
               // 创建一个隐藏的 div
